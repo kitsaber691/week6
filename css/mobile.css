@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+  html {
+    background-color: yellow;
+  }
+  nav a {
+    color: #331C12;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .9em;
+  }
+  nav ul{
+    width:auto;
+    display:inline-block;
+    overflow: hidden;
+    border-left-width: .1em;
+    list-style:none;
+    text-align:center;
+    padding:0;	
+  }
+  nav ul li {	
+    display:inline-block;
+    /*float: left;
+    padding: .5em ;*/
+    border-right: .1em solid;
+    border-right-color: #2c2e21;
+    text-decoration: none;
+  }
+}
